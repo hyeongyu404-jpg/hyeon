@@ -1,0 +1,47 @@
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .outBox4{
+    width: 90%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ftop{
+    width: 80%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.fbtm1{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgb(181, 181, 181);
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.fbtm2{
+    width: 60%;
+    height: 60px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

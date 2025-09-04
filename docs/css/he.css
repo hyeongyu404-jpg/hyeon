@@ -1,0 +1,110 @@
+ *{margin: 0; padding: 0; list-style: none; text-decoration: none;}
+    body{ width: 100vw; }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aqua; */
+            width: 100%;
+            height: 120px;
+            margin: 0 auto;
+        }
+        nav{
+            width: 1400px;
+            height: 100px;
+            /* background-color: red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+            margin-right: 10px;
+            /* flex-direction: column; */
+        }
+        /* nav ul li{ font-size: 20px; font-weight: 400;        } */
+
+        /* nav ul li ul{
+            position: absolute;
+            top:100%;
+            display:none;
+        }
+        nav ul li:hover > ul{
+            display: block;
+        } */ 
+        .logo{
+            background-image: url(../img/logo_g.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 150px;
+            height: 80px;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu{
+            width: 70%;
+            height: 50px;
+            /* background-color:blue; */
+            display: flex;
+            justify-content: center;
+            /* gap: 20px; */
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .menu ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:40px;
+            font-size: 16px;
+            font-weight:200px;
+        }
+        .rightBox{
+            width: 110px;
+            height: 60px;
+            /* margin: 10px; */
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* gap:5px; */
+        }
+        .logo2{
+            background-image: url(../img/cir_kr.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 40px;
+            height: 40px;
+            background-size: contain;
+        }
+        .hambar{
+            width: 40px;
+            height: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            
+        }
+        .line{
+            display: block;
+            width: 40px;
+            height: 2px;
+            background-color: rgb(0, 72, 0);
+            border-radius: 2px;
+            align-items: flex-start;
+        }
+        .line:nth-child(1){
+            width: 100%;
+            height: 1.5px;
+        }
+        .line:nth-child(2){
+            width: 80%;
+            height: 1.5px;
+        }
+        .line:nth-child(3){
+            width: 100%;
+            height: 1.5px;
+        }

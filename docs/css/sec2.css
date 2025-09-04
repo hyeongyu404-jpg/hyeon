@@ -1,0 +1,192 @@
+.sec2{
+            width: 100%;
+            height: 1500px;
+            /* background-color: rgb(239, 239, 239); */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        .sec2 .outBox1{
+            width: 100%;
+            height: 800px;
+            background-color: rgb(245, 245, 245);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .sec2 .outBox1 .textBox{
+            width: 70%;
+            height: 250px;
+            /* background-color: rgb(95, 255, 255); */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:25px;
+        }
+        .sec2 .outBox1 .textBox h1{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .sec2 .outBox1 .textBox p{
+            font-size: 18px;
+            text-align: center;
+        }
+        .sec2 .outBox1 .textBox p:nth-child(2){
+            margin-top: 5px;
+            font-weight: bold;
+        }
+                
+        .sec2 .outBox1 .iconBox{
+            width: 90%;
+            height: 400px;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+        }
+        .iconBox .line{
+            width: 1px;
+            height: 220px;
+            background-color: rgb(145, 145, 145);
+        }
+        .sec2 .outBox1 .iconBox .ic{
+            width: 300px;
+            height: 200px;
+            /* background-color: red; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .sec2 .outBox2{
+            width: 100%;
+            height: 600px;
+            /* background-color: rgb(255, 0, 0); */
+            padding-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* gap: 30px; */
+        }
+        .sec2 .outBox2 .test{
+            width: 1600px;
+            height: 75%;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .sec2 .outBox2 .textBox2{
+            width: 45%;
+            height: 90%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            /* gap: 15px; */
+            /* box-sizing: border-box; 이거 뭔지 모름 */
+        }
+        .sec2 .outBox2 .leftBox{
+            width: 50%;
+            height: 95%;
+            /* background-color: rgb(207, 207, 255); */
+            background-image: url(../img/section02_prd01.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 350px;
+        }
+        .sec2 .outBox2 .leftBox .ltextB2{
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+
+        /* .ltexB2_1{
+            width: 300px;
+            height: 200px;
+            /* background-color: aqua; */
+        /* }
+        .rTextB2_1 {
+            height: 200px;
+        } */ 
+        .sec2 .line2{
+            width: 1px;
+            height: 90%;
+            background-color: gray;
+        }
+        .sec2 .outBox2 .rightBox{
+            width: 50%;
+            height: 90%;
+            /* background-color: rgb(255, 204, 255); */
+            background-image: url(../img/section02_prd02.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 240px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: right;
+            /* margin-right: 25px; */
+        }
+
+        .sec2 .outBox2 .rightBox .rTextBox2{
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        }
+
+        .outBox2 p{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(124, 124, 124);
+            letter-spacing: 5px;
+        }
+
+        .outBox2 h3 {
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(0, 84, 34);
+        }
+
+        .outBox2 h5{
+            width: 280px;
+            height: 150px;
+            /* background-color: red; */
+            font-size: 18px;
+            font-weight: 400;
+            display: flex;
+            /* align-items: center; */
+        }
+        .btn2_1{
+            width: 20%;
+            height: 30px;
+            /* background-color: red; */
+            /* border: 2px solid red;
+            display: flex; */
+        }
+        .btn2_2{
+            width: 20%;
+            height: 30px;
+            /* background-color: red; */
+            /* border: 2px solid red;
+            display: flex; */
+        }
+        button{
+            font-size: 25px;
+            color: rgb(0, 116, 27);
+            background-color: transparent;
+            border: none;
+        }
